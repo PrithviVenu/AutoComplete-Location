@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520DD3A822AE19B000B5BD8A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520DD3A722AE19B000B5BD8A /* SecondViewController.swift */; };
 		527E10B322AC36B900DC42DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E10B222AC36B900DC42DB /* AppDelegate.swift */; };
 		527E10B522AC36B900DC42DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E10B422AC36B900DC42DB /* ViewController.swift */; };
 		527E10B722AC36BA00DC42DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527E10B622AC36BA00DC42DB /* Assets.xcassets */; };
 		527E10BA22AC36BA00DC42DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527E10B822AC36BA00DC42DB /* Main.storyboard */; };
 		527E10C622AC36BA00DC42DB /* popopoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E10C522AC36BA00DC42DB /* popopoTests.swift */; };
 		527E10D122AC36BA00DC42DB /* popopoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E10D022AC36BA00DC42DB /* popopoUITests.swift */; };
+		527E10DF22AC489A00DC42DB /* KSTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E10DE22AC489A00DC42DB /* KSTableCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		520DD3A722AE19B000B5BD8A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		527E10AF22AC36B900DC42DB /* popopo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popopo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527E10B222AC36B900DC42DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527E10B422AC36B900DC42DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		527E10CC22AC36BA00DC42DB /* popopoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popopoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		527E10D022AC36BA00DC42DB /* popopoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popopoUITests.swift; sourceTree = "<group>"; };
 		527E10D222AC36BA00DC42DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527E10DE22AC489A00DC42DB /* KSTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSTableCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 		527E10A622AC36B900DC42DB = {
 			isa = PBXGroup;
 			children = (
+				520DD3A722AE19B000B5BD8A /* SecondViewController.swift */,
+				527E10DE22AC489A00DC42DB /* KSTableCellView.swift */,
 				527E10B122AC36B900DC42DB /* popopo */,
 				527E10C422AC36BA00DC42DB /* popopoTests */,
 				527E10CF22AC36BA00DC42DB /* popopoUITests */,
@@ -254,6 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520DD3A822AE19B000B5BD8A /* SecondViewController.swift in Sources */,
+				527E10DF22AC489A00DC42DB /* KSTableCellView.swift in Sources */,
 				527E10B522AC36B900DC42DB /* ViewController.swift in Sources */,
 				527E10B322AC36B900DC42DB /* AppDelegate.swift in Sources */,
 			);
